@@ -1,0 +1,27 @@
+.carousel_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel_item img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.carousel_item span{
+    padding-top: 20px;  
+    padding-bottom: 20px; 
+    font-weight: 600;
+    color: gray;
+}
+
+.carousel_item .active{
+    border: 2px solid tomato;
+    padding: 2px;
+}

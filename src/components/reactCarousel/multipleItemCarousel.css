@@ -1,0 +1,23 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.menu_text h1{
+    font-weight: 500;
+    color: #262626;
+}
+
+.menu_text{
+    max-width: 60%;
+    color: #808080;
+}
+
+.main_div hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
